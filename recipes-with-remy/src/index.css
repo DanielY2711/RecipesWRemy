@@ -4,6 +4,13 @@ body {
   font-family:'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #579255;
+  background-image: url('./Images/BackgroundIMG.png'); 
+  background-size: 275%;
+  background-repeat: repeat;
+  background-position: center;
+  max-height: max-content;
 }
 
 code {

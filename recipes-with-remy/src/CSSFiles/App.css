@@ -16,14 +16,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1a47a1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(177, 49, 49);
+  
 }
 
 /* Header component CSS */
@@ -36,6 +37,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  max-height: max-content;
+
 }
 
 
@@ -43,22 +47,25 @@
 /* component styling for all pages */
 .mainContainer
 {
-  background-color: #8AA06B;
-  background-image: url('./../Images/BackgroundIMG.png'); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-height: max-content;
-  position: fixed;
+
+
+  height:100%;
+  width: 100px;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+
+  display: flex;
+
+  overflow: auto;
+
+
 }
 
 .inputButtonWhite
 {
-  background-color:#ffffff;
+  background-color:#d4b70e;
   height:60px;
   width: 250px;
   border-radius:65px;
